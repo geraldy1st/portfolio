@@ -18,7 +18,7 @@ header {
   justify-content: center;
 }
 
-/* ========== Socials ========== */
+/* ========== SOCIALS ========== */
 
 .header__socials {
   display: flex;
@@ -37,7 +37,7 @@ header {
   background: var(--color-bg-primary);
 }
 
-/* ========== Profil photo ========== */
+/* ========== PROFIL PICTURE ========== */
 
 .me {
   background: linear-gradient(var(--color-bg-primary), transparent);
@@ -61,4 +61,24 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }

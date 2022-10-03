@@ -3,7 +3,7 @@ import "./Testimonials.styles.css";
 
 const Testimonials = () => {
   return (
-    <div>
+    <section id="testimonials">
       <h2>Testimonials</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos recusandae
@@ -11,7 +11,7 @@ const Testimonials = () => {
         dolorem pariatur nostrum hic aliquam ipsum, praesentium, ex autem.
         Excepturi, corporis facilis.
       </p>
-    </div>
+    </section>
   );
 };
 
