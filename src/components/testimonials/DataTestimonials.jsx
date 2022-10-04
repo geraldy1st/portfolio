@@ -6,15 +6,15 @@ import Avatar4 from "../../assets/avatar4.jpg";
 const DataTestimonials = [
   {
     avatar: Avatar1,
-    name: "Tina Snow",
+    name: "Regine Snow",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nobis modi magni, distinctio qui ipsum quae optio nisi consectetur quaerat enim placeat, quos doloremque nostrum dolorem! Illo nam dolor rerum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nobis modi magni, distinctio qui ipsum quae optio nisi consecte",
   },
   {
     avatar: Avatar2,
     name: "David Vallet",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nobis modi magni, distinctio qui ipsum quae optio nisi consectetur quaerat enim placeat, quos doloremque nostrum dolorem! Illo nam dolor rerum.",
+      "Lorem ipsum onsectetur adipisicing elit. Itaque, nobis modi magni, distinctio qui ipsum quae optio nisi consectetur quaerat enim placeat, quos doloremque nostrum dolorem! Illo nam dolor rerum.",
   },
   {
     avatar: Avatar3,
@@ -26,7 +26,7 @@ const DataTestimonials = [
     avatar: Avatar4,
     name: "Cedric Valentin",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nobis modi magni, distinctio qui ipsum quae optio nisi consectetur quaerat enim placeat, quos doloremque nostrum dolorem! Illo nam dolor rerum.",
+      "Loremonsectetur adipisicing elit. Itaque, nobis modi magni, distinctio qui ipsum quae optio nisi consectetur quaerat enim placeat, quos doloremque nostrum dolorem! Illo nam dolor rerum.",
   },
 ];
 
