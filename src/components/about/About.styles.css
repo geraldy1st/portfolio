@@ -68,6 +68,10 @@
   color: var(--color-light);
 }
 
+.redirectedLink1:hover {
+  color: rgb(182, 212, 249);
+}
+
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {

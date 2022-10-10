@@ -36,12 +36,24 @@ const About = () => {
               <small>100+ Completed</small>
             </article>
           </div>
+          <br />
+          <br />
+          <h3>Front End web developer</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vitae
-            laboriosam eum maiores rem doloribus excepturi. Deserunt adipisci
-            eveniet perferendis nisi dignissimos harum cupiditate cum nostrum
-            corrupti impedit? Eligendi, nostrum?
+            I’m a french front end developer, currently working as a freelancer.
+            I graduated from CIFAP and I’m a former developer at THP{" "}
+            <a
+              href="https://www.thehackingproject.org"
+              target="_blank"
+              rel="noreferrer"
+              className="redirectedLink1"
+            >
+              (The Hacking Project)
+            </a>
+            , a digital coding bootcamps located in Paris. I dedicate my time to
+            develop webapp and create useful services mostly built with React.
           </p>
+
           <a href="#contact" className="btn btn-primary">
             Let's talk
           </a>

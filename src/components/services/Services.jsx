@@ -15,23 +15,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Webapp UX and UI design</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem dolor sit amet.</p>
+              <p>Responsives design</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem ipsum dolor sit.</p>
+              <p>UI and UX consulting</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Lorem sit amet.</p>
+              <p>Cross-platform experiences</p>
             </li>
           </ul>
         </article>
@@ -43,27 +39,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Information Gathering</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem dolor sit amet.</p>
+              <p>Planning</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem dolor sit amet.</p>
+              <p>Content Writing and Assembly</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem ipsum dolor sit.</p>
+              <p>Coding</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Testing, Review and Launch</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem sit amet.</p>
+              <p>Maintenance</p>
             </li>
           </ul>
         </article>
@@ -74,19 +70,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Analysis</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem dolor sit amet.</p>
+              <p>Interface architecture</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Sketching & Wireframes</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Lorem sit amet.</p>
+              <p>Dynamic prototype</p>
+            </li>
+            <li>
+              <BiCheck className="service__lis-icon" />
+              <p>Editing and coding</p>
             </li>
           </ul>
         </article>

@@ -1,14 +1,15 @@
 import React from "react";
 import { FiInstagram } from "react-icons/fi";
-import { FaTwitter } from "react-icons/fa";
+// import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaCodepen } from "react-icons/fa";
 
 import "./Footer.styles.css";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#home" className="footer__logo">
         CodeInit
       </a>
 
@@ -34,10 +35,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://twitter.com">
-          <FaTwitter />
+        <a href="https://codepen.com/geraldy1st">
+          <FaCodepen />
         </a>
-        <a href="https://github.com">
+        <a href="https://github.com/geraldy1st">
           <FaGithub />
         </a>
         <a href="https://instagram.com/code.init">
