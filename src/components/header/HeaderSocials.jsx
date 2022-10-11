@@ -17,7 +17,7 @@ const HeaderSocials = () => {
       <a href="https://github.com/geraldy1st" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
-      <a href="https://codepen.com" target="_blank" rel="noreferrer">
+      <a href="https://codepen.com/geraldy1st" target="_blank" rel="noreferrer">
         <FaCodepen />
       </a>
       <a
