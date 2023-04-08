@@ -38,20 +38,43 @@ const About = () => {
           </div>
           <br />
           <br />
-          <h3>Front End web developer</h3>
+          <h3>Profil:</h3>
           <p>
-            I’m a french front end developer, currently working as a freelancer.
-            I graduated from CIFAP and I’m a former developer at THP{" "}
+            I'm Geraldy, a Consultant Quality Assurance Analyst in software
+            development. With more than 5 years of experience in the tech
+            industry, I've honed my skills in both software development and
+            quality assurance.
+          </p>
+          <p>
+            As a former Full-Stack Developer with expertise in Ruby and Rails &
+            React. I've gained expertise in creating and executing comprehensive
+            test plans, conducting thorough code reviews, and identifying and
+            resolving defects to ensure optimal performance and user
+            satisfaction.
+          </p>
+          <p>
+            My dedication to delivering high-quality products has earned me a
+            reputation for meticulous attention to detail and a proactive
+            approach to problem-solving. Graduated from{" "}
+            <a
+              href="https://www.groupefitec.fr/"
+              target="_blank"
+              rel="noreferrer"
+              className="redirectedLink1"
+            >
+              FITEC
+            </a>{" "}
+            and with previous experience at THP -
             <a
               href="https://www.thehackingproject.org"
               target="_blank"
               rel="noreferrer"
               className="redirectedLink1"
             >
-              (The Hacking Project)
-            </a>
-            , a digital coding bootcamps located in Paris. I dedicate my time to
-            develop webapp and create useful services mostly built with React.
+              The Hacking Project
+            </a>{" "}
+            - in Paris. I'm dedicated to helping organizations achieve their
+            quality goals and driving excellence in software development.
           </p>
 
           <a href="#contact" className="btn btn-primary">
