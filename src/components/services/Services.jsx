@@ -10,7 +10,7 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>QA Test</h3>
+            <h3>QA Tester</h3>
           </div>
           <ul className="service__list">
             <li>
@@ -23,7 +23,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Preparing Test Plan</p>
+              <p>Regression test</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
