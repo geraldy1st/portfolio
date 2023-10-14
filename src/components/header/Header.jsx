@@ -1,6 +1,6 @@
 import React from "react";
 import Cta from "./Cta";
-import MyPhoto from "../../assets/me.png";
+import softwareImg from "../../assets/How-to-Improve-Your-Software-With-Customer-Feedback-banner.png";
 import HeaderSocials from "./HeaderSocials";
 
 import "./Header.styles.css";
@@ -17,7 +17,7 @@ const Header = () => {
         <Cta />
         <HeaderSocials />
         <div className="me">
-          <img src={MyPhoto} alt="me" />
+          <img src={softwareImg} alt="working testers" />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
