@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolioV2/static/css/main.0e202b64.css",
-    "main.js": "/portfolioV2/static/js/main.36377934.js",
+    "main.css": "/portfolioV2/static/css/main.238726fe.css",
+    "main.js": "/portfolioV2/static/js/main.73e4469c.js",
+    "static/media/portfolio5.png": "/portfolioV2/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/portfolioV2/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio1.jpg": "/portfolioV2/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "static/media/me-about.jpg": "/portfolioV2/static/media/me-about.275a49ba810de8822ff2.jpg",
     "static/media/portfolio3.jpg": "/portfolioV2/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/portfolioV2/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "static/media/How-to-Improve-Your-Software-With-Customer-Feedback-banner.png": "/portfolioV2/static/media/How-to-Improve-Your-Software-With-Customer-Feedback-banner.11ee8063b5bf7d72419c.png",
     "index.html": "/portfolioV2/index.html",
-    "main.0e202b64.css.map": "/portfolioV2/static/css/main.0e202b64.css.map",
-    "main.36377934.js.map": "/portfolioV2/static/js/main.36377934.js.map"
+    "main.238726fe.css.map": "/portfolioV2/static/css/main.238726fe.css.map",
+    "main.73e4469c.js.map": "/portfolioV2/static/js/main.73e4469c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e202b64.css",
-    "static/js/main.36377934.js"
+    "static/css/main.238726fe.css",
+    "static/js/main.73e4469c.js"
   ]
 }
