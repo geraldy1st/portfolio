@@ -1,17 +1,17 @@
-import Img1 from "../../assets/portfolio1.jpg";
+import Img1 from "../../assets/portfolio5.png";
 import Img2 from "../../assets/portfolio2.jpg";
 import Img3 from "../../assets/portfolio3.jpg";
-// import Img4 from "../../assets/portfolio4.jpg";
-// import Img5 from "../../assets/portfolio5.png";
+import Img4 from "../../assets/portfolio4.jpg";
+// import Img5 from "../../assets/portfolio1.jpg";
 // import Img6 from "../../assets/portfolio6.jpg";
 
 const DataPortfolio = [
   {
     id: 1,
     image: Img1,
-    title: "Social Network",
-    github: "https://github.com/geraldy1st/socialnetapp",
-    demo: "https://socialnetapp.herokuapp.com/",
+    title: "Drump Touch App",
+    github: "https://github.com/geraldy1st/music_mmh",
+    demo: "https://geraldy1st.github.io/music_mmh/",
   },
 
   {
@@ -24,17 +24,17 @@ const DataPortfolio = [
   {
     id: 3,
     image: Img3,
-    title: "e-shop",
-    github: "https://github.com/geraldy1st/shopigee",
-    demo: "https://shopigee.herokuapp.com/",
+    title: "Crypto Currency",
+    github: "https://github.com/geraldy1st/cryptoGame",
+    demo: "https://rawgit.com/geraldy1st/cryptoGame/master/index.html",
   },
-  //   {
-  //     id: 4,
-  //     image: Img4,
-  //     title: "Project 4",
-  //     github: "https://github.com/geraldy",
-  //     demo: "https://github.com/geraldy",
-  //   },
+  {
+    id: 4,
+    image: Img4,
+    title: "Portfolio  -v",
+    github: "https://github.com/geraldy1st",
+    demo: "https://geraldy1st.github.io/portfolio/",
+  },
   //   {
   //     id: 5,
   //     image: Img5,
