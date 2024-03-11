@@ -9,9 +9,9 @@ import "./Footer.styles.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className="footer__logo">
+      {/* <a href="#home" className="footer__logo">
         CodeInit
-      </a>
+      </a> */}
 
       <ul className="permalinks">
         <li>
