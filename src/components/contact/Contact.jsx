@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 import { MdOutlineEmail } from "react-icons/md";
 // import { RiMessengerLine } from "react-icons/ri";
 import { FiInstagram } from "react-icons/fi";
-import emailjs from "emailjs-com";
 
 import "./Contact.styles.css";
 
@@ -16,12 +16,14 @@ const Contact = () => {
         "service_rz4exwh",
         "template_4vo61ur",
         form.current,
-        "hvkOD8G5fSFa34HeD"
+        "wnEJ9sGAritOSLC0J"
       )
       .then(
         (result) => {
           console.log(result.text);
           alert("Your message has been sent!");
+          console.log("Your message has been sent!");
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
