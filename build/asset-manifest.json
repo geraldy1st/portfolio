@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioV2/static/css/main.74550ccb.css",
-    "main.js": "/portfolioV2/static/js/main.5a11d74d.js",
+    "main.js": "/portfolioV2/static/js/main.d7610789.js",
     "static/media/me.png": "/portfolioV2/static/media/me.916c11f72957957282ad.png",
     "static/media/portfolio5.png": "/portfolioV2/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/portfolioV2/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
@@ -10,10 +10,10 @@
     "static/media/How-to-Improve-Your-Software-With-Customer-Feedback-banner.png": "/portfolioV2/static/media/How-to-Improve-Your-Software-With-Customer-Feedback-banner.11ee8063b5bf7d72419c.png",
     "index.html": "/portfolioV2/index.html",
     "main.74550ccb.css.map": "/portfolioV2/static/css/main.74550ccb.css.map",
-    "main.5a11d74d.js.map": "/portfolioV2/static/js/main.5a11d74d.js.map"
+    "main.d7610789.js.map": "/portfolioV2/static/js/main.d7610789.js.map"
   },
   "entrypoints": [
     "static/css/main.74550ccb.css",
-    "static/js/main.5a11d74d.js"
+    "static/js/main.d7610789.js"
   ]
 }

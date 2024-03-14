@@ -38,7 +38,7 @@ const About = () => {
           </div>
           <br />
           <br />
-          <h3>Profil:</h3>
+
           <p>
             I'm Geraldy, a Consultant Quality Assurance Analyst in software
             development. With more than 5 years of experience in the tech

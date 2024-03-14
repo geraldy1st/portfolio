@@ -3,6 +3,8 @@ import { FiInstagram } from "react-icons/fi";
 // import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
+import { SiFiverr } from "react-icons/si";
+import { SiUpwork } from "react-icons/si";
 
 import "./Footer.styles.css";
 
@@ -43,6 +45,12 @@ const Footer = () => {
         </a>
         <a href="https://instagram.com/code.init">
           <FiInstagram />
+        </a>
+        <a href="https://www.fiverr.com/geraldy1st">
+          <SiFiverr />
+        </a>
+        <a href="https://www.upwork.com/freelancers/~0181b4e7e5b18fce54">
+          <SiUpwork />
         </a>
       </div>
 
