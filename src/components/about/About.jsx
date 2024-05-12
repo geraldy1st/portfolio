@@ -40,21 +40,19 @@ const About = () => {
           <br />
 
           <p>
-            I'm Geraldy, a Consultant Quality Assurance Analyst in software
-            development. With more than 5 years of experience in the tech
-            industry, I've honed my skills in both software development and
-            quality assurance.
+            I'm a freelance Quality Assurance Analyst in software development,
+            specialize in software testing.
           </p>
-          <p>
+          {/* <p>
             As a former Full-Stack Developer with expertise in Ruby and Rails &
             React. I've gained expertise in creating and executing comprehensive
             test plans, conducting thorough code reviews, and identifying and
             resolving defects to ensure optimal performance and user
             satisfaction.
-          </p>
+          </p> */}
           <p>
-            My dedication to delivering high-quality products has earned me a
-            reputation for meticulous attention to detail and a proactive
+            I deliver high-quality products using manual testing and automation,
+            I have earned my skills from attention to detail and a proactive
             approach to problem-solving. Graduated from{" "}
             <a
               href="https://www.groupefitec.fr/"
