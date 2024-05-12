@@ -62,7 +62,7 @@ const Contact = () => {
               Send a message
             </a>
           </article> */}
-
+          {/* use Malt and Fiverr */}
           <article className="contact__option">
             <FiInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
