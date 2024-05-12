@@ -1,6 +1,6 @@
 {
-    "name": "portfolio_v2",
-    "homepage": "https://geraldy1st.github.io/portfolioV2/",
+    "name": "portfolio",
+    "homepage": "https://geraldy1st.github.io/portfolio/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
