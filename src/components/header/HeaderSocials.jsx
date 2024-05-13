@@ -2,7 +2,7 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
+// import { FiInstagram } from "react-icons/fi";
 
 const HeaderSocials = () => {
   return (
@@ -20,13 +20,13 @@ const HeaderSocials = () => {
       <a href="https://codepen.com/geraldy1st" target="_blank" rel="noreferrer">
         <FaCodepen />
       </a>
-      <a
+      {/* <a
         href="https://instagram.com/code.init"
         target="_blank"
         rel="noreferrer"
       >
         <FiInstagram />
-      </a>
+      </a> */}
     </div>
   );
 };

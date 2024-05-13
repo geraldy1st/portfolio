@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import { MdOutlineEmail } from "react-icons/md";
 // import { RiMessengerLine } from "react-icons/ri";
-import { FiInstagram } from "react-icons/fi";
+// import { FiInstagram } from "react-icons/fi";
 
 import "./Contact.styles.css";
 
@@ -63,17 +63,17 @@ const Contact = () => {
             </a>
           </article> */}
           {/* use Malt and Fiverr */}
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <FiInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
             <h5>code.init</h5>
-            {/* <a
+            <a
               href="https://api.whatsapp.com/send?phone=+555"
               target="_blank"
               rel="noreferrer"
             >
               Send a message
-            </a> */}
+            </a>
             <a
               href="https://instagram.com/code.init"
               target="_blank"
@@ -81,7 +81,7 @@ const Contact = () => {
             >
               Send a message
             </a>
-          </article>
+          </article> */}
         </div>
         {/* End of contact options */}
         <form ref={form} onSubmit={sendEmail}>
