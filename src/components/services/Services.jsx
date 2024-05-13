@@ -75,7 +75,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
-              <p>Content Writing and Assembly</p>
+              <p>Content Writing</p>
             </li>
             <li>
               <BiCheck className="service__lis-icon" />
