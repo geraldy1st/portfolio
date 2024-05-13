@@ -40,8 +40,6 @@ const About = () => {
               <small>Selenium</small>
             </article>
           </div>
-          <br />
-          <br />
 
           <p>
             I'm a freelance Quality Assurance Analyst in software development,

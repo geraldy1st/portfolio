@@ -5,6 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
 import { SiFiverr } from "react-icons/si";
 import { SiUpwork } from "react-icons/si";
+// import { SiMalt } from "react-icons/si";
+import { TbFlower } from "react-icons/tb";
 
 import "./Footer.styles.css";
 
@@ -47,6 +49,9 @@ const Footer = () => {
         </a>
         <a href="https://www.upwork.com/freelancers/~0181b4e7e5b18fce54">
           <SiUpwork />
+        </a>
+        <a href="https://www.malt.fr/profile/geraldyleondas">
+          <TbFlower />
         </a>
       </div>
 
