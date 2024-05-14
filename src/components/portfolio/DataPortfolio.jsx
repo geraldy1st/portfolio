@@ -19,7 +19,7 @@ const DataPortfolio = [
     image: Img2,
     title: "Github Finder App",
     github: "https://github.com/geraldy1st/github-finder",
-    demo: "https://githubfinder365.netlify.com/",
+    demo: "https://githubfinder365.netlify.app/",
   },
   //   {
   //     id: 3,
