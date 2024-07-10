@@ -2,7 +2,7 @@
 import Img2 from "../../assets/portfolio2.jpg";
 // import Img3 from "../../assets/portfolio3.jpg";
 // import Img4 from "../../assets/portfolio4.jpg";
-// import Img5 from "../../assets/portfolio1.jpg";
+import Img5 from "../../assets/ponggame.png";
 // import Img6 from "../../assets/portfolio6.jpg";
 
 const DataPortfolio = [
@@ -35,13 +35,13 @@ const DataPortfolio = [
   //     github: "https://github.com/geraldy1st",
   //     demo: "https://geraldy1st.github.io/portfolio/",
   //   },
-  //   {
-  //     id: 5,
-  //     image: Img5,
-  //     title: "Project 5",
-  //     github: "https://github.com/geraldy",
-  //     demo: "https://github.com/geraldy",
-  //   },
+  {
+    id: 5,
+    image: Img5,
+    title: "Pong Game 1972",
+    github: "https://github.com/geraldy1st/pong",
+    demo: "https://geraldy1st.github.io/pong/",
+  },
   //   {
   //     id: 6,
   //     image: Img6,
