@@ -1,4 +1,4 @@
-// import Img1 from "../../assets/portfolio5.png";
+import Img1 from "../../assets/portfolio1.jpg";
 import Img2 from "../../assets/portfolio2.jpg";
 // import Img3 from "../../assets/portfolio3.jpg";
 // import Img4 from "../../assets/portfolio4.jpg";
@@ -42,13 +42,14 @@ const DataPortfolio = [
     github: "https://github.com/geraldy1st/pong",
     demo: "https://geraldy1st.github.io/pong/",
   },
-  //   {
-  //     id: 6,
-  //     image: Img6,
-  //     title: "Project 6",
-  //     github: "https://github.com/geraldy",
-  //     demo: "https://github.com/geraldy",
-  //   },
+  {
+    id: 6,
+    image: Img1,
+    title: "Test Campaign",
+    github:
+      "https://github.com/geraldy1st/test_campaign/blob/main/Rapport_de_synthese_-_Campus_Fitec.pdf",
+    demo: "https://www.canva.com/design/DAFi409aEY4/x2bZhXSbmgntWgVxkXDzkA/edit?utm_content=DAFi409aEY4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  },
 ];
 
 export default DataPortfolio;
