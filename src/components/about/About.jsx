@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.styles.css";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { BsShieldCheck } from "react-icons/bs";
+import { FaLaptopCode } from "react-icons/fa";
+import { BiTargetLock } from "react-icons/bi";
 
 const About = () => {
   return (
@@ -11,27 +11,23 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Certifications</h5>
-              <small>ISTQB®</small>
-              <br />
-              <small>PSPO™</small>
+              <BiTargetLock className="about__icon" />
+              <h5>Precision Testing</h5>
+              <small>Meticulous attention to detail in every test case</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Field</h5>
-              <small>Esport</small>
-              <br />
-              <small>ELearning</small>
+              <BsShieldCheck className="about__icon" />
+              <h5>Quality Assurance</h5>
+              <small>Ensuring robust and reliable software delivery</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Tech</h5>
-              <small>Java</small>
-              <br />
-              <small>Selenium</small>
+              <FaLaptopCode className="about__icon" />
+              <h5>Automation</h5>
+              <small>
+                Expert in creating efficient test automation frameworks
+              </small>
             </article>
           </div>
 
@@ -39,13 +35,7 @@ const About = () => {
             I'm a freelance Quality Assurance Analyst in software development,
             specialize in software testing.
           </p>
-          {/* <p>
-            As a former Full-Stack Developer with expertise in Ruby and Rails &
-            React. I've gained expertise in creating and executing comprehensive
-            test plans, conducting thorough code reviews, and identifying and
-            resolving defects to ensure optimal performance and user
-            satisfaction.
-          </p> */}
+
           <p>
             I deliver high-quality products using manual testing and automation,
             I have earned my skills from attention to detail and a proactive
