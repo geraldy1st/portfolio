@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.32861c2b.css",
-    "main.js": "/portfolio/static/js/main.1f699f50.js",
+    "main.css": "/portfolio/static/css/main.cb38030d.css",
+    "main.js": "/portfolio/static/js/main.6e165889.js",
     "static/media/ponggame.png": "/portfolio/static/media/ponggame.5c0e3451606c0cba4240.png",
     "static/media/me.png": "/portfolio/static/media/me.a2b649de172398efe8b3.png",
     "static/media/portfolio2.jpg": "/portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
-    "static/media/How-to-Improve-Your-Software-With-Customer-Feedback-banner.png": "/portfolio/static/media/How-to-Improve-Your-Software-With-Customer-Feedback-banner.11ee8063b5bf7d72419c.png",
     "index.html": "/portfolio/index.html",
-    "main.32861c2b.css.map": "/portfolio/static/css/main.32861c2b.css.map",
-    "main.1f699f50.js.map": "/portfolio/static/js/main.1f699f50.js.map"
+    "main.cb38030d.css.map": "/portfolio/static/css/main.cb38030d.css.map",
+    "main.6e165889.js.map": "/portfolio/static/js/main.6e165889.js.map"
   },
   "entrypoints": [
-    "static/css/main.32861c2b.css",
-    "static/js/main.1f699f50.js"
+    "static/css/main.cb38030d.css",
+    "static/js/main.6e165889.js"
   ]
 }

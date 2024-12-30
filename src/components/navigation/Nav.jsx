@@ -7,14 +7,37 @@ import "./Nav.styles.css";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      return savedTheme;
+    }
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  });
 
   useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+    const handleChange = (e) => {
+      const newTheme = e.matches ? "dark" : "light";
+      setTheme(newTheme);
+      localStorage.setItem("theme", newTheme);
+    };
+
+    mediaQuery.addEventListener("change", handleChange);
+
     document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+
+    return () => mediaQuery.removeEventListener("change", handleChange);
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
   };
 
   return (
