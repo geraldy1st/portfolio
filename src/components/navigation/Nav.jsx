@@ -1,19 +1,26 @@
-import React from "react";
-import "./Nav.styles.css";
-import { AiOutlineHome } from "react-icons/ai";
-import { BiUser } from "react-icons/bi";
-import { BiBook } from "react-icons/bi";
+import React, { useState, useEffect } from "react";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
-import { BiMessageDetail } from "react-icons/bi";
-import { useState } from "react";
+import { BsSun, BsMoon } from "react-icons/bs";
+import "./Nav.styles.css";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+  const [theme, setTheme] = useState("dark");
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   return (
     <nav>
       <a
-        href="#home"
+        href="#"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
@@ -24,7 +31,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <BiUser />
+        <AiOutlineUser />
       </a>
       <a
         href="#experience"
@@ -45,8 +52,11 @@ const Nav = () => {
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <BiMessageDetail />
+        <BiMessageSquareDetail />
       </a>
+      <button className="theme-toggle" onClick={toggleTheme}>
+        {theme === "dark" ? <BsSun /> : <BsMoon />}
+      </button>
     </nav>
   );
 };

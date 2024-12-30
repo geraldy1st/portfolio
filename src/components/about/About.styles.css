@@ -1,30 +1,27 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .about__container {
-  display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-.about__me {
+.about__content {
   width: 100%;
-  height: 170px;
-  aspect-ratio: 2/1.5;
-  border-radius: 4px;
-
-  /* display: grid; */
-  place-items: center;
-}
-
-.about__me-image {
-  width: 50%;
-  border-radius: 50%;
-  overflow: hidden;
-  transition: var(--transition);
+  max-width: 800px;
 }
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .about__card {
@@ -33,86 +30,71 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transition: all 0.3s ease-in-out;
 }
 
 .about__card:hover {
   background: transparent;
-  border-color: var(--color-bg-primary-variant);
+  border-color: var(--color-primary-variant);
   cursor: default;
 }
 
 .about__icon {
-  color: var(--color-bg-primary);
+  color: var(--color-primary);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 
 .about__card h5 {
   font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
+
 .about__card small {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: var(--color-light);
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
 }
 
 .about__content p {
-  margin: 2rem 0 2.6rem;
+  margin: 1rem 0;
   color: var(--color-light);
+  line-height: 1.7;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
-.redirectedLink1:hover {
-  color: rgb(182, 212, 249);
-}
-
-/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
-
+/* Media Queries */
 @media screen and (max-width: 1024px) {
   .about__container {
-    grid-template-columns: 1fr;
-    gap: 0;
-    margin: 10px auto;
+    padding: 0.8rem;
   }
 
-  .about__me {
-    margin: 2rem auto;
-    background: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .about__cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
   }
 
-  .about__me-image {
-    transform: none;
-    display: block;
-    width: 140px;
-  }
-  .about__content p {
-    margin: 1rem 0 1.5rem;
+  .about__card {
+    padding: 1.5rem;
   }
 }
 
-/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
-
 @media screen and (max-width: 600px) {
-  .about__me {
-    margin: 0 auto 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .about__me-image {
-    transform: none;
-    display: block;
+  .about__container {
+    padding: 0.5rem;
   }
 
   .about__cards {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  .about__content {
-    text-align: center;
-  }
+
   .about__content p {
-    margin: 1.5rem 0;
+    margin: 1.2rem 0;
+    text-align: center;
   }
 }

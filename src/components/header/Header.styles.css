@@ -1,75 +1,182 @@
-header {
-  height: 100vh;
-  padding-top: 7rem;
-  overflow: hidden;
+* {
+  font-family: "Poppins", sans-serif;
 }
+
+header {
+  padding: 4rem 1rem;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--color-bg-variant);
+  border-radius: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* ========== SOCIALS ========== */
+/* ===== Text Styles ===== */
+.header__container h1 {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
 
+.header__container h5 {
+  margin-bottom: 2.5rem;
+  color: var(--color-light);
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== Social Icons ===== */
 .header__socials {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
-  position: absolute;
-  left: 0;
-  bottom: 3rem;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
-.header__socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-bg-primary);
+.header__socials a {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  transition: all 0.3s ease;
 }
 
-/* ========== PROFIL PICTURE ========== */
+.header__socials a:hover {
+  color: var(--color-white);
+  transform: translateY(-3px);
+}
 
+/* ===== CTA Buttons ===== */
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.cta .btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* ===== Image Container ===== */
 .me {
-  background: linear-gradient(var(--color-bg-primary), transparent);
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  max-width: 200px;
+  margin: 1.5rem auto;
+  padding: 0.4rem;
+  background: linear-gradient(45deg, var(--color-primary-variant), transparent);
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  aspect-ratio: 1/1;
 }
 
-/* ========== SCROLL DOWN ========== */
-
-.scroll__down {
-  position: absolute;
-  right: -2.3rem;
-  bottom: 5rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 0.9rem;
+.me:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+.me img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid var(--color-primary);
+  object-fit: cover;
+}
 
+/* ===== Media Queries (Medium Devices) ===== */
 @media screen and (max-width: 1024px) {
   header {
-    height: 90vh;
+    padding: 3rem 1rem;
+  }
+
+  .header__container {
+    padding: 1.5rem;
+  }
+
+  .header__container h1 {
+    font-size: 2.2rem;
+  }
+
+  .me {
+    max-width: 180px;
   }
 }
 
-/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
-
+/* ===== Media Queries (Small Devices) ===== */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    padding: 2rem 0.5rem;
   }
-  .header__socials,
-  .scroll__down {
-    display: none;
+
+  .header__container {
+    padding: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .header__container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .header__container h5 {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .me {
+    max-width: 150px;
+    padding: 0.3rem;
+  }
+
+  .header__socials {
+    gap: 1.5rem;
+  }
+
+  .header__socials a {
+    font-size: 1.2rem;
+  }
+
+  .cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .cta .btn {
+    width: 200px;
+  }
+}
+
+/* ===== Media Queries (Extra Small Devices) ===== */
+@media screen and (max-width: 400px) {
+  header {
+    padding: 2rem 0.5rem;
+  }
+
+  .header__container h1 {
+    font-size: 1.5rem;
+  }
+
+  .header__container h5 {
+    font-size: 0.8rem;
+  }
+
+  .me {
+    max-width: 120px;
+    padding: 0.2rem;
   }
 }
