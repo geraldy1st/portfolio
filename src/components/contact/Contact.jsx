@@ -1,103 +1,73 @@
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
-import { MdOutlineEmail } from "react-icons/md";
-// import { RiMessengerLine } from "react-icons/ri";
-// import { FiInstagram } from "react-icons/fi";
-
 import "./Contact.styles.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { BsWhatsapp } from "react-icons/bs";
+import { RiLinkedinBoxLine } from "react-icons/ri";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_rz4exwh",
-        "template_4vo61ur",
-        form.current,
-        "wnEJ9sGAritOSLC0J"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("Your message has been sent!");
-          console.log("Your message has been sent!");
-          e.target.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "YOUR_SERVICE_ID",
+      "YOUR_TEMPLATE_ID",
+      form.current,
+      "YOUR_USER_ID"
+    );
+
     e.target.reset();
   };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
-      <h2>Contact</h2>
+      <h2>Contact Me</h2>
+
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            {/* <h5>codeinit.geraldy@gmail.com</h5> */}
-            <a
-              href="mailto:codeinit.geraldy@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message
-            </a>
+            <a href="mailto:geraldy.leondas@gmail.com">Send a message</a>
           </article>
 
-          {/* <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>Geraldy Code Init</h5>
-            <a
-              href="https://m.me/codeinitgeraldy"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message
+          <article className="contact__option">
+            <RiLinkedinBoxLine className="contact__option-icon" />
+            <h4>LinkedIn</h4>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+              Connect with me
             </a>
-          </article> */}
-          {/* use Malt and Fiverr */}
-          {/* <article className="contact__option">
-            <FiInstagram className="contact__option-icon" />
-            <h4>Instagram</h4>
-            <h5>code.init</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=+555"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message
-            </a>
-            <a
-              href="https://instagram.com/code.init"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message
-            </a>
-          </article> */}
+          </article>
         </div>
-        {/* End of contact options */}
-        <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            rows="7"
-            placeholder="Your Message"
-            required
-          ></textarea>
+
+        <form ref={form} onSubmit={sendEmail} className="contact__form">
+          <div className="form__group">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+            />
+          </div>
+          <div className="form__group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div className="form__group">
+            <textarea
+              name="message"
+              rows="7"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>

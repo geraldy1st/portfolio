@@ -1,11 +1,8 @@
 import React from "react";
-// import { FiInstagram } from "react-icons/fi";
-// import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
 import { SiFiverr } from "react-icons/si";
 import { SiUpwork } from "react-icons/si";
-// import { SiMalt } from "react-icons/si";
 import { TbFlower } from "react-icons/tb";
 
 import "./Footer.styles.css";
@@ -13,7 +10,7 @@ import "./Footer.styles.css";
 const Footer = () => {
   return (
     <footer>
-      <ul className="permalinks">
+      {/* <ul className="permalinks">
         <li>
           <a href="#home">Home</a>
         </li>
@@ -32,7 +29,7 @@ const Footer = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
-      </ul>
+      </ul> */}
 
       <div className="footer__socials">
         <a href="https://codepen.com/geraldy1st">
@@ -41,9 +38,6 @@ const Footer = () => {
         <a href="https://github.com/geraldy1st">
           <FaGithub />
         </a>
-        {/* <a href="https://instagram.com/code.init">
-          <FiInstagram />
-        </a> */}
         <a href="https://www.fiverr.com/geraldy1st">
           <SiFiverr />
         </a>
