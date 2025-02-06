@@ -60,10 +60,6 @@ const About = () => {
             - in Paris. I'm dedicated to helping organizations achieve their
             quality goals and driving excellence in software development.
           </p>
-
-          {/* <a href="#contact" className="btn btn-primary">
-            Let's talk
-          </a> */}
         </div>
       </div>
     </section>

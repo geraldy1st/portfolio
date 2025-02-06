@@ -11,12 +11,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
-      form.current,
-      "YOUR_USER_ID"
-    );
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          alert("Failed to send message, please try again.");
+        }
+      );
 
     e.target.reset();
   };
@@ -37,7 +46,11 @@ const Contact = () => {
           <article className="contact__option">
             <RiLinkedinBoxLine className="contact__option-icon" />
             <h4>LinkedIn</h4>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/geraldy-leondas-35265279/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Connect with me
             </a>
           </article>

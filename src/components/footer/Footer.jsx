@@ -9,7 +9,11 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/geraldy-leondas-35265279/">
+        <a
+          href="https://www.linkedin.com/in/geraldy-leondas-35265279/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin />
         </a>
         <a href="https://instagram.com/code.init">
