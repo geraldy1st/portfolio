@@ -10,18 +10,10 @@ const Header = () => {
       <div className="container header__container" id="home">
         <h1>Geraldy LEONDAS</h1>
         <h5 className="text-light">Senior Quality Assurance Engineer</h5>
-        <HeaderSocials />
         <div className="me">
-          <img src={Me} alt="working testers" />
+          <img src={Me} alt="Geraldy" />
         </div>
-        <div className="cta">
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
-          <a href="#portfolio" className="btn">
-            View My Work
-          </a>
-        </div>
+        <HeaderSocials />
       </div>
     </header>
   );

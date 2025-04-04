@@ -3,7 +3,7 @@ import "./Contact.styles.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { RiLinkedinBoxLine } from "react-icons/ri";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();

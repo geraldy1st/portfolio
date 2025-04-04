@@ -2,37 +2,61 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Update your root CSS variables to include RGB values */
+:root {
+  --color-bg-rgb: 27, 27, 56;
+  --color-bg-variant-rgb: 44, 44, 108;
+}
+
 header {
+  height: 100vh;
   padding: 4rem 1rem;
   overflow: hidden;
-  background: var(--color-bg);
+  /* background: rgba(var(--color-bg-rgb), 0.85); */
+
+  /* Add transparency to see parallax */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform-style: preserve-3d;
+  perspective: 1000px;
 }
 
 .header__container {
   text-align: center;
-  height: 100%;
   position: relative;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
-  background: var(--color-bg-variant);
+  padding: 1rem;
+  background: rgba(var(--color-bg-variant-rgb), 0.9);
   border-radius: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  /* transform: translateZ(-10px) scale(2); */
+}
+
+/* Light mode */
+[data-theme="light"] .header__container {
+  background: rgba(241, 241, 241, 0.9);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* ===== Text Styles ===== */
 .header__container h1 {
-  margin-bottom: 1rem;
+  margin-top: 0;
   color: var(--color-primary);
   font-size: 2.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-weight: 100;
   font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+  padding: 0 1rem;
 }
 
 .header__container h5 {
-  margin-bottom: 2.5rem;
   color: var(--color-light);
   font-size: 1.1rem;
   letter-spacing: 0.5px;
@@ -40,12 +64,16 @@ header {
   font-family: "Poppins", sans-serif;
 }
 
+/* Adjust text colors for light mode */
+[data-theme="light"] .header__container h5 {
+  color: #333; /* Dark gray color for better readability in light mode */
+}
+
 /* ===== Social Icons ===== */
 .header__socials {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 2rem;
 }
 
 .header__socials a {
@@ -54,39 +82,24 @@ header {
   transition: all 0.3s ease;
 }
 
+/* Social Icons default hover (dark mode) */
 .header__socials a:hover {
   color: var(--color-white);
   transform: translateY(-3px);
 }
 
-/* ===== CTA Buttons ===== */
-.cta {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 2.5rem;
-}
-
-.cta .btn {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+/* Social Icons hover for light mode only */
+[data-theme="light"] .header__socials a:hover {
+  color: #333 !important;
+  transform: translateY(-3px);
 }
 
 /* ===== Image Container ===== */
 .me {
   width: 100%;
   max-width: 200px;
-  margin: 1.5rem auto;
-  padding: 0.4rem;
-  background: linear-gradient(45deg, var(--color-primary-variant), transparent);
+  margin: 10px auto;
   border-radius: 50%;
-  transition: all 0.3s ease-in-out;
-  aspect-ratio: 1/1;
-}
-
-.me:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 .me img {
@@ -108,7 +121,8 @@ header {
   }
 
   .header__container h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    margin-top: 0;
   }
 
   .me {
@@ -116,7 +130,13 @@ header {
   }
 }
 
-/* ===== Media Queries (Small Devices) ===== */
+@media screen and (max-width: 768px) {
+  .header__container h1 {
+    font-size: 1.8rem;
+    margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 2rem 0.5rem;
@@ -124,11 +144,13 @@ header {
 
   .header__container {
     padding: 1rem;
-    border-radius: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .header__container h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin-top: 0;
     margin-bottom: 0.8rem;
   }
 
@@ -161,14 +183,14 @@ header {
   }
 }
 
-/* ===== Media Queries (Extra Small Devices) ===== */
 @media screen and (max-width: 400px) {
   header {
     padding: 2rem 0.5rem;
   }
 
   .header__container h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 0;
   }
 
   .header__container h5 {
@@ -179,4 +201,48 @@ header {
     max-width: 120px;
     padding: 0.2rem;
   }
+
+  .header__container {
+    padding: 0.8rem;
+    width: 95%;
+  }
+}
+
+/* Add smooth scrolling to the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add these styles at the top of your CSS file */
+.parallax-header {
+  height: 100vh;
+}
+
+/* Dark mode (default) */
+.header__container {
+  text-align: center;
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background: rgba(var(--color-bg-variant-rgb), 0.9);
+  border-radius: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+/* Light mode */
+[data-theme="light"] .header__container {
+  background: rgba(241, 241, 241, 0.9);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust text colors for light mode */
+[data-theme="light"] .header__container h5 {
+  color: #333; /* Dark gray color for better readability in light mode */
+}
+
+/* Adjust social icons for light mode */
+[data-theme="light"] .header__socials a:hover {
+  color: var(--color-bg);
 }
