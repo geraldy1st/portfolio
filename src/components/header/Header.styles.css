@@ -9,14 +9,14 @@
 }
 
 header {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 4rem 1rem;
   overflow: hidden;
   /* background: rgba(var(--color-bg-rgb), 0.85); */
 
   /* Add transparency to see parallax */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   background-attachment: fixed;
   background-position: center;
