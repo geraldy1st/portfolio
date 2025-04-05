@@ -63,6 +63,11 @@ header {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
+header p {
+  font-weight: 100;
+  font-size: 0.8rem;
+  padding: 2rem;
+}
 
 /* Adjust text colors for light mode */
 [data-theme="light"] .header__container h5 {

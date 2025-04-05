@@ -1,5 +1,6 @@
 import React from "react";
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { FaCodepen } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
@@ -10,6 +11,9 @@ const HeaderSocials = () => {
         rel="noreferrer"
       >
         <BsLinkedin />
+      </a>
+      <a href="https://codepen.com/geraldy1st" target="_blank" rel="noreferrer">
+        <FaCodepen />
       </a>
       <a href="https://github.com/geraldy1st" target="_blank" rel="noreferrer">
         <BsGithub />

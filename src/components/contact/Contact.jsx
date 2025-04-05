@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import "./Contact.styles.css";
-import { MdOutlineEmail } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
-import { RiLinkedinBoxLine } from "react-icons/ri";
+// import { MdOutlineEmail } from "react-icons/md";
+// import { BsInstagram } from "react-icons/bs";
+// import { RiLinkedinBoxLine } from "react-icons/ri";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -37,13 +37,13 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <a href="mailto:geraldy.leondas@gmail.com">Send a message</a>
-          </article>
+            <a href="mailto:codeinit@gmail.com">Send a message</a>
+          </article> */}
 
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <RiLinkedinBoxLine className="contact__option-icon" />
             <h4>LinkedIn</h4>
             <a
@@ -53,9 +53,9 @@ const Contact = () => {
             >
               Connect with me
             </a>
-          </article>
+          </article> */}
 
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <BsInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
             <a
@@ -65,7 +65,7 @@ const Contact = () => {
             >
               Follow me
             </a>
-          </article>
+          </article> */}
         </div>
 
         <form ref={form} onSubmit={sendEmail} className="contact__form">

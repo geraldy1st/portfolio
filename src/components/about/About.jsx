@@ -32,11 +32,6 @@ const About = () => {
           </div>
 
           <p>
-            I'm a freelance Quality Assurance Analyst in software development,
-            specialize in software testing.
-          </p>
-
-          <p>
             I deliver high-quality products using manual testing and automation,
             I have earned my skills from attention to detail and a proactive
             approach to problem-solving. Graduated from{" "}

@@ -13,6 +13,10 @@ const Header = () => {
         <div className="me">
           <img src={Me} alt="Geraldy" />
         </div>
+        <p>
+          Empowering teams through Quality Assurance expertise and Scrum
+          practices to deliver exceptional software solutions
+        </p>
         <HeaderSocials />
       </div>
     </header>
