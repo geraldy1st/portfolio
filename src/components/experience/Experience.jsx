@@ -5,64 +5,70 @@ import { BsPatchCheckFill } from "react-icons/bs";
 const experience = () => {
   return (
     <section id="experience">
-      <h5>Skills I have</h5>
-      <h2>Skills & Expertise</h2>
+      <h5>Professional Expertise</h5>
+      <h2>Skills & Technologies</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Quality Assurance</h3>
+          <h3>Quality Assurance & Testing</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Jira</h4>
+                <h4>Test Automation</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>X-Ray</h4>
+                <h4>Selenium WebDriver</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>ATDD BDD</h4>
+                <h4>JIRA & X-Ray</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Scrum</h4>
+                <h4>BDD & ATDD</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Agile</h4>
+                <h4>Agile & Scrum</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Selenium</h4>
+                <h4>CI/CD Pipeline</h4>
               </div>
             </article>
           </div>
         </div>
-        {/* Web Development */}
+
         <div className="experience__backend">
-          <h3>Web Development</h3>
+          <h3>Development & Tools</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>React</h4>
+                <h4>JavaScript</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Node</h4>
+                <h4>React.js</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Node.js</h4>
               </div>
             </article>
             <article className="experience__details">
@@ -74,19 +80,13 @@ const experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MongoDB</h4>
+                <h4>Git & GitHub</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Heroku</h4>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MySQL</h4>
+                <h4>SQL & NoSQL</h4>
               </div>
             </article>
           </div>

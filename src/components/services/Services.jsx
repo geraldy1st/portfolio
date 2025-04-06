@@ -5,85 +5,89 @@ import { BiCheck } from "react-icons/bi";
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I offer</h5>
-      <h2>Services</h2>
+      <h5>What I Offer</h5>
+      <h2>Professional Services</h2>
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>QA Tester</h3>
+            <h3>Quality Assurance</h3>
           </div>
           <ul className="service__list">
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Test case</p>
+              <BiCheck className="service__list-icon" />
+              <p>End-to-End Test Strategy Development</p>
             </li>
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Perfomance testing</p>
+              <BiCheck className="service__list-icon" />
+              <p>Automated Test Framework Implementation</p>
             </li>
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Regression test</p>
+              <BiCheck className="service__list-icon" />
+              <p>Performance & Load Testing</p>
             </li>
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Test fonctional</p>
-            </li>
-          </ul>
-        </article>
-        <article className="service">
-          <div className="service__head">
-            <h3>Consultant Logiciel</h3>
-          </div>
-          <ul className="service__list">
-            <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Analysis</p>
+              <BiCheck className="service__list-icon" />
+              <p>Regression Testing & Test Suite Maintenance</p>
             </li>
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Interface architecture</p>
-            </li>
-            <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Sketching & Wireframes</p>
-            </li>
-            <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Dynamic prototype</p>
-            </li>
-            <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Editing and coding</p>
+              <BiCheck className="service__list-icon" />
+              <p>CI/CD Pipeline Integration</p>
             </li>
           </ul>
         </article>
 
-        {/* End of Testing */}
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Software Consulting</h3>
           </div>
           <ul className="service__list">
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Information Gathering</p>
+              <BiCheck className="service__list-icon" />
+              <p>Quality Assurance Strategy</p>
             </li>
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Code review</p>
+              <BiCheck className="service__list-icon" />
+              <p>Test Process Optimization</p>
             </li>
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Content Writing</p>
+              <BiCheck className="service__list-icon" />
+              <p>Agile Testing Implementation</p>
             </li>
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Coding</p>
+              <BiCheck className="service__list-icon" />
+              <p>Test Automation Architecture</p>
             </li>
             <li>
-              <BiCheck className="service__lis-icon" />
-              <p>Maintenance</p>
+              <BiCheck className="service__list-icon" />
+              <p>Quality Metrics & Reporting</p>
+            </li>
+          </ul>
+        </article>
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Technical Leadership</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>QA Team Leadership & Mentoring</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Code Review & Best Practices</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Test Documentation Standards</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Cross-functional Team Collaboration</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Quality Process Implementation</p>
             </li>
           </ul>
         </article>
