@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
+import { BiFile, BiMessageSquareDetail, BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BsSun, BsMoon } from "react-icons/bs";
 import "./Nav.styles.css";
@@ -61,7 +61,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBook />
+        <BiFile />
       </a>
       <a
         href="#services"
