@@ -5,7 +5,13 @@
 /* Update your root CSS variables to include RGB values */
 :root {
   --color-bg-rgb: 27, 27, 56;
-  --color-bg-variant-rgb: 44, 44, 108;
+  --color-bg-variant-rgb: 29, 29, 50;
+  --color-primary-rgb: 105, 190, 125;
+  --color-primary-variant-rgb: 105, 190, 125;
+  --color-white-rgb: 255, 255, 255;
+  --color-light-rgb: 105, 190, 125;
+  --color-bg-primary-rgb: 27, 27, 56;
+  --color-bg-primary-variant-rgb: 44, 44, 108;
 }
 
 header {
@@ -231,6 +237,7 @@ html {
   margin: 0 auto;
   padding: 1rem;
   background: rgba(var(--color-bg-variant-rgb), 0.9);
+  /* background: rgba(var(--color-bg-variant-rgb), 0.9); */
   border-radius: 2rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);

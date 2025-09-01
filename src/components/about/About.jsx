@@ -36,7 +36,7 @@ const About = () => {
             I have earned my skills from attention to detail and a proactive
             approach to problem-solving. Graduated from{" "}
             <a
-              href="https://www.groupefitec.fr/"
+              href="https://fr.linkedin.com/company/groupe-fitec"
               target="_blank"
               rel="noreferrer"
               className="redirectedLink1"

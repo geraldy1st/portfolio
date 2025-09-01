@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsInstagram, BsMedium } from "react-icons/bs";
 import { FaCodepen } from "react-icons/fa";
 
 const HeaderSocials = () => {
@@ -24,6 +24,9 @@ const HeaderSocials = () => {
         rel="noreferrer"
       >
         <BsInstagram />
+      </a>
+      <a href="https://medium.com/@geraldy1st" target="_blank" rel="noreferrer">
+        <BsMedium />
       </a>
     </div>
   );
