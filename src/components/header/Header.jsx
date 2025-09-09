@@ -14,8 +14,7 @@ const Header = () => {
           <img src={Me} alt="Geraldy" />
         </div>
         <p>
-          Empowering teams through Quality Assurance expertise and Scrum
-          practices to deliver exceptional software solutions
+          QA Tester | Delivering reliable software through Agile and automation
         </p>
         <HeaderSocials />
       </div>
