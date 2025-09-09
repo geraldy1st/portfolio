@@ -6,7 +6,6 @@ import "./Projects.styles.css";
 const Projects = () => {
   return (
     <section id="projects">
-      <h5>Featured Work</h5>
       <h2>Professional Projects</h2>
       <div className="container portfolio__container">
         {DataProjects.map(({ id, image, title, description, github, demo }) => {

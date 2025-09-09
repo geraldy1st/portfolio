@@ -4,6 +4,7 @@ import { FaGithub, FaCodepen, FaLinkedin, FaInstagram } from "react-icons/fa";
 // import { SiUpwork } from "react-icons/si";
 // import { TbFlower } from "react-icons/tb";
 import "./Footer.styles.css";
+import { BsMedium } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -16,14 +17,21 @@ const Footer = () => {
         >
           <FaLinkedin />
         </a>
-        <a href="https://codepen.com/geraldy1st">
+        {/* <a href="https://codepen.com/geraldy1st">
           <FaCodepen />
-        </a>
+        </a> */}
         <a href="https://github.com/geraldy1st">
           <FaGithub />
         </a>
-        <a href="https://instagram.com/code.init">
+        {/* <a href="https://instagram.com/code.init">
           <FaInstagram />
+        </a> */}
+        <a
+          href="https://medium.com/@geraldy1st"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsMedium />
         </a>
         {/* <a href="https://www.fiverr.com/geraldy1st">
           <SiFiverr />

@@ -12,19 +12,19 @@ const HeaderSocials = () => {
       >
         <BsLinkedin />
       </a>
-      <a href="https://codepen.com/geraldy1st" target="_blank" rel="noreferrer">
+      {/* <a href="https://codepen.com/geraldy1st" target="_blank" rel="noreferrer">
         <FaCodepen />
-      </a>
+      </a> */}
       <a href="https://github.com/geraldy1st" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
-      <a
+      {/* <a
         href="https://instagram.com/code.init"
         target="_blank"
         rel="noreferrer"
       >
         <BsInstagram />
-      </a>
+      </a> */}
       <a href="https://medium.com/@geraldy1st" target="_blank" rel="noreferrer">
         <BsMedium />
       </a>
